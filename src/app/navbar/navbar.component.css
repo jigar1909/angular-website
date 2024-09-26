@@ -3,6 +3,7 @@
     gap: 10px;
     list-style: none;
     margin-left: 40px;
+    margin-bottom: 0px;
 }
 
 .navbar {
@@ -10,6 +11,8 @@
     align-items: center;
     background: rgb(0, 0, 0);
     height: 80px;
+    position: sticky;
+    top: 0;
     color: white;
 }
 

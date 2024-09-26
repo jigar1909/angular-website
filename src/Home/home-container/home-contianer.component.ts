@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-home-contianer',
+  selector: 'app-home-container',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './home-contianer.component.html',
   styleUrl: './home-contianer.component.css'
 })

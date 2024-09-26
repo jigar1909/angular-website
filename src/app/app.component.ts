@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
-import { HomeContianerComponent } from "./home-contianer/home-contianer.component";
-import { HomeBannerComponent } from './home-banner/home-banner.component';
+import { HomeContianerComponent } from "../Home/home-container/home-contianer.component";
+import { HomeBannerComponent } from '../Home/home-banner/home-banner.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, HomeContianerComponent, HomeBannerComponent],
+  imports: [RouterOutlet, RouterLink, HomeBannerComponent, NavbarComponent, HomeContianerComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
